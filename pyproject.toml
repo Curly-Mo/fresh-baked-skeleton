@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "fresh_baked_skeleton"
+version = "0.1.0"
+description = "An example python project skeleton created using fresh-baked"
+authors = [
+    "Colin Fahy <colin@cfahy.com>",
+]
+license = "LGPL-3.0"
+readme = "README.md"
+homepage = ""
+repository = "https://github.com/Curly-Mo/fresh-baked-skeleton"
+documentation = "https://fresh_baked_skeleton.readthedocs.org/en/latest/"
+keywords = []
+classifiers = [
+    # "License :: OSI Approved :: LGPL-3.0",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+
+# Requirements
+[tool.poetry.dependencies]
+python = "^3.4"
+typing = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "~3.4"
+pytest-cov = "~2.5"
+pytest-mock = "~1.9"
+tox = "~3.0"
+sphinx = '*'
+sphinx-autobuild = '*'
+black = { version = "^18.3-alpha.0", python = "^3.6" }
+yapf = '*'
+flake8 = '*'
+isort = '*'
