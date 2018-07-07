@@ -1,8 +1,9 @@
-Welcome to Fresh Baked Skeleton documentation!
-===========================================
+Welcome to Fresh Baked Skeleton's documentation!
+================================================
 
 .. toctree::
-	:maxdepth: 2
+   :maxdepth: 2
+   :caption: Contents:
 
 
 

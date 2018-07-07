@@ -8,7 +8,7 @@
 [![PyPI Pythons](https://img.shields.io/pypi/pyversions/fresh-baked-skeleton.svg)](https://pypi.python.org/pypi/fresh-baked-skeleton)
 [![License](https://img.shields.io/pypi/l/fresh-baked-skeleton.svg)](https://github.com/Curly-Mo/fresh-baked-skeleton/blob/master/LICENSE)
 
-An example python project skeleton created using fresh-baked
+Short Description of My Library
 
 ## Features
 
@@ -29,14 +29,13 @@ See https://fresh-baked-skeleton.readthedocs.org/en/latest/
 
 ## Development
 ```console
-pip install fresh-baked-skeleton
 pip install poetry
 poetry install
 ```
 
 ### Tests
 ```console
-tox
+poetry test
 ```
 
 ## License
