@@ -2,9 +2,11 @@ Welcome to Fresh Baked Skeleton's documentation!
 ================================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+    :maxdepth: 2
+    :caption: Contents:
 
+    readme
+    api/modules
 
 
 Indices and tables
