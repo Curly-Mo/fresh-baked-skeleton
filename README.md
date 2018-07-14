@@ -29,12 +29,25 @@ See https://fresh-baked-skeleton.readthedocs.org/en/latest/
 ## Development
 ```console
 pip install poetry
+cd fresh-baked-skeleton
 poetry install
+```
+### Run
+To run cli entrypoint:
+```console
+poetry run fresh_baked_skeleton --help
 ```
 
 ### Tests
 ```console
-poetry test
+poetry run pytest --cov=fresh_baked_skeleton
+```
+
+### Docker
+To run with docker
+```console
+docker build -t Fresh Baked Skeleton.image .
+docker run fresh_baked_skeleton.image fresh_baked_skeleton --help
 ```
 
 ## License
