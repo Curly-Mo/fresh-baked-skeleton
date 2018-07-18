@@ -7,4 +7,4 @@ from fresh_baked_skeleton import main
 
 
 def test_main():
-    assert main.main() == "hello"
+    assert main.main() == 'hello'

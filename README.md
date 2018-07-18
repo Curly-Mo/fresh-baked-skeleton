@@ -46,8 +46,8 @@ poetry run pytest --cov=fresh_baked_skeleton
 ### Docker
 To run with docker
 ```console
-docker build -t Fresh Baked Skeleton.image .
-docker run fresh_baked_skeleton.image fresh_baked_skeleton --help
+docker build -t Fresh Baked Skeleton .
+docker run fresh_baked_skeleton:latest fresh_baked_skeleton --help
 ```
 
 ## License
