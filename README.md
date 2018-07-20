@@ -49,6 +49,3 @@ To run with docker
 docker build -t Fresh Baked Skeleton .
 docker run fresh_baked_skeleton:latest fresh_baked_skeleton --help
 ```
-
-## License
-[LGPL-3.0](https://github.com/Curly-Mo/fresh-baked-skeleton/blob/master/LICENSE)
