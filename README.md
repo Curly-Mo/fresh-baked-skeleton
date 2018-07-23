@@ -40,7 +40,7 @@ poetry run fresh_baked_skeleton --help
 
 ### Tests
 ```console
-poetry run pytest --cov=fresh_baked_skeleton
+poetry run tox
 ```
 
 ### Docker
