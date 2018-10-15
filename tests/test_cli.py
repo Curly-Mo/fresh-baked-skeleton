@@ -7,6 +7,7 @@ import pytest
 from click.testing import CliRunner
 
 from fresh_baked_skeleton import cli
+
 # pylint doesn't like pytest-fixtures
 # pylint: disable=redefined-outer-name
 
