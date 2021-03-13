@@ -21,7 +21,7 @@ sys.path.insert(0, os.path.abspath('..'))
 # -- Project information -----------------------------------------------------
 
 project = 'Fresh Baked Skeleton'
-ropyright = '2019, Colin Fahy'
+ropyright = '2021, Colin Fahy'
 author = 'Colin Fahy'
 description = 'Short Description of My Library'
 project_slug = 'fresh_baked_skeleton'
@@ -29,7 +29,7 @@ project_slug = 'fresh_baked_skeleton'
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = '0.1.0-alpha.0'
+release = '0.1.0'
 
 
 # -- General configuration ---------------------------------------------------
