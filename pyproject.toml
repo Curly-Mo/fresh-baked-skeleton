@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "fresh_baked_skeleton"
-version = "0.1.146"
+version = "0.1.150"
 description = "Short Description of My Library"
 authors = [
     "Colin Fahy <colin@cfahy.com>",
